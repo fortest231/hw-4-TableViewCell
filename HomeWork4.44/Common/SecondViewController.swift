@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  HomeWork4.44
 //
-//  Created by MacBook Pro on 21/2/24.
+//  Created by MacBook Pro on 22/6/24.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class SecondViewController: UIViewController {
     
     private let mainImage: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(named: "LazyChair")
+        image.image = UIImage(named: "Ala-Kul")
         image.contentMode = .scaleAspectFill
         image.translatesAutoresizingMaskIntoConstraints = false
         return image
@@ -21,7 +21,7 @@ class SecondViewController: UIViewController {
     
     private let mainLabel: UILabel = {
         let label = UILabel()
-        label.text = "Fabric Lazy Chair"
+        label.text = "Ala-Kul Lake"
         label.textColor = .black
         label.font = UIFont.boldSystemFont(ofSize: 28)
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -38,7 +38,7 @@ class SecondViewController: UIViewController {
     
     private let price: UILabel = {
         let price = UILabel()
-        price.text = "230$"
+        price.text = "Аpproximate cost 230$"
         price.textColor = .blue
         price.font = UIFont.boldSystemFont(ofSize: 20)
         price.translatesAutoresizingMaskIntoConstraints = false
@@ -47,7 +47,7 @@ class SecondViewController: UIViewController {
     
     private let productDetailsLabel: UILabel = {
         let label = UILabel()
-        label.text = "Product Details"
+        label.text = "Basic necessities."
         label.textColor = .black
         label.font = UIFont.systemFont(ofSize: 25)
         label.numberOfLines = 0
@@ -60,7 +60,7 @@ class SecondViewController: UIViewController {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = 8
         
-        let attributedText = NSMutableAttributedString(string: "Room type \nColor \nMaterial \nDimensions \nWeight")
+        let attributedText = NSMutableAttributedString(string: "Сlothes and shoes \nEquipment \nFood and water \nSafety and health \nNavigation and communication")
         
         attributedText.addAttribute(.paragraphStyle, value: paragraphStyle, range: NSMakeRange(0, attributedText.length))
         label.attributedText = attributedText
@@ -77,7 +77,7 @@ class SecondViewController: UIViewController {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = 8
         
-        let attributedText = NSMutableAttributedString(string: "Office, living Room \nYellow \nTextile, Velvet, Cotton \n25.5 x 31.5 x 47.3 inches \n20 Pounds")
+        let attributedText = NSMutableAttributedString(string: "Warm clothing (fleece jacket, thermal underwear). \nBackpack,Trekking poles \nDrinking water,energy bars. \nFirst-aid kit, sunscreen, insect repellent. \nGPS device or smart phone with offline maps")
         
         attributedText.addAttribute(.paragraphStyle, value: paragraphStyle, range: NSMakeRange(0, attributedText.length))
         label.attributedText = attributedText
@@ -91,7 +91,7 @@ class SecondViewController: UIViewController {
     
     private let buyButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Buy", for: .normal)
+        button.setTitle("Go to Map", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .blue
         button.layer.cornerRadius = 8

@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HomeWork4.44
 //
-//  Created by MacBook Pro on 21/2/24.
+//  Created by MacBook Pro on 22/6/24.
 //
 
 import UIKit
@@ -16,9 +16,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }()
     
     private let data: [Struct] = [
-        Struct(image: "Furniture", text: "Furniture", liltext: "785 Items"),
-        Struct(image: "Kitchenware", text: "Kitchenware", liltext: "645 Items"),
-        Struct(image: "Reading Table", text: "Reading Table", liltext: "333 Items")
+        Struct(image: "Ala-Kul", text: "Ala-Kul Lake", liltext: "3,532m height"),
+        Struct(image: "Yssyk-Kol", text: "Yssyk-Kol Lake", liltext: "Depth 668m"),
+        Struct(image: "Song-Kol", text: "Song-Kol Lake", liltext: "Elevation:3,016m")
     ]
 
     override func viewDidLoad() {
